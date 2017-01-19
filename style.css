@@ -1,0 +1,95 @@
+
+
+body {
+    background-image: url(images/OBCCM80.jpg);
+    background-size: 1600px 900px;
+    background-attachment: fixed;
+    background-color: #d6d6d6;
+    margin:auto;
+    max-width: 1024px;
+}
+header {
+    position: fixed;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    max-height: 150px;
+    width: 1024px;
+}
+
+header img, header h3, nav {
+    padding-top: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header img {
+    padding-bottom: 5px;
+}
+
+header h3 {
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+nav {
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    font-size: .75em;
+    padding-right: 20px;
+}
+
+a {
+    font-family: "Arial", Gadget, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+li a:link {
+    color: white;
+    }
+
+li a:hover {
+    color: #adadad;
+    }
+
+li a:visited {
+    color: #777777;
+    }
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: #adadad;
+}
+
+a:visited {
+    color: #777777;
+}
+
+.film-container {
+
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 50px;
+    background-color: white;
+    font-family:sans-serif;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.film-container p {
+    color: #3d3d3d
+}
+
+footer {
+    text-align: center;
+}
+
+article {
+    padding-top: 100px;
+}
